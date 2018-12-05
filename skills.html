@@ -4,10 +4,43 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Document</title>
+    <title>Skills</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
+    crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="assets/css/navbarStyle.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/footerStyle.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 </head>
 <body>
+
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark" id="blur">
+                <a class="navbar-brand" href="#" id="navbarName">Janice Novacek</a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+                    aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav mx-auto">
+                        <li class="nav-item active">
+                            <a class="nav-link" href="index.html" id="margin">Home <span class="sr-only">(current)</span></a>
+                        </li>
+                        <li class="nav-item active">
+                            <a class="nav-link" href="index.html" id="margin">About Me</a>
+                        </li>
+                        <li class="nav-item active">
+                            <a class="nav-link" href="skills.html" id="margin">Resume</a>
+                        </li>
+                        <li class="nav-item active">
+                            <a class="nav-link" href="skills.html" id="margin">Portfolio</a>
+                        </li>
+        
+                    </ul>
+              
+        
+        
+                </div>
+            </nav>
     <div>
         <image class="skills" width="192" height="108" src="assets/images/react.png"></image>
         <image class="skills" width="211" height="59.5" src="assets/images/node.png"></image>
@@ -18,6 +51,43 @@
         <image class="skills" width="256" height="88" src="assets/images/firebase.png"></image>
 
     </div>
+
+
+
+
+
+    <nav class="navbar fixed-bottom navbar-expand-lg navbar-light bg-light" style="background-color: purple;">
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+                aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav mx-auto">
+                    <li class="nav-item active">
+                        <a class="nav-link" id="marginsm" target="_blank" href="https://github.com/JaniceNova"><img src="assets/images/GitHub-Mark-120px-plus.png" id="sizeImg"></a>
+                    </li>
+                    <li class="nav-item active">
+                        <a class="nav-link" id="marginsm" target="_blank" href="https://www.instagram.com/kitteninabowl/"><img src="assets/images/IG_Glyph_Fill.png" id="sizeImg"></a>
+                    </li>
+                    <li class="nav-item active">
+                        <a class="nav-link" id="marginsm" target="_blank" href="https://www.linkedin.com/in/janice-novacek"><img src="assets/images/In-2CRev-128px-TM.png" id="sizeImg"></a>
+                    </li>
+                    <li class="nav-item active">
+                        <a class="nav-link" id="margin" href="mailto:JaniceNovacek2016@gmail.com"><img src="assets/images/gmail.jpg" id="sizeImg">:
+                            JaniceNovacek2016@gmail.com</a>
+                    </li>
+                    <li class="nav-item active">
+                        <a class="nav-link" id="margin" href="#"><img src="assets/images/phone.png" id="sizeImg">: 
+                        724-650-4133</a>
+                    </li>
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+    crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+    crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+    crossorigin="anonymous"></script>
+
     <script>
         $(".skills").hover(function(){
             $(this).attr("width", $(this).attr("width") * 1.5 )
