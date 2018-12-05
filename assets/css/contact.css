@@ -8,7 +8,7 @@ html {
 
 #contactBox {
     background: rgba(108, 71, 108, 0.3);
-    height: 500px;
+    height: 700px;
     margin-left :10%;
     margin-right:10%;
     margin-top:3%;
@@ -22,4 +22,24 @@ html {
 #indyPic {
     height: 170px;
     width: 170px;
+}
+
+#box1 {
+    float: left;
+    margin-left: 35px;
+    margin-top:35px;
+    
+}
+
+#box2 {
+    float: left;
+    margin-left: 35px;
+    margin-top:35px;
+  
+}
+
+#box3 {
+    float: left;
+    margin-left: 35px;
+    margin-top:35px;
 }
