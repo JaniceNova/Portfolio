@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+</head>
+<body>
+    <div>
+        <image class="skills" width="192" height="108" src="assets/images/react.png"></image>
+        <image class="skills" width="211" height="59.5" src="assets/images/node.png"></image>
+        <image class="skills" width="128" height="128" src="assets/images/mysql.png"></image>
+    </div>
+    <div>
+        <image class="skills" width="112.5" height="112.5" src="assets/images/mongodb.png"></image>
+        <image class="skills" width="256" height="88" src="assets/images/firebase.png"></image>
+
+    </div>
+    <script>
+        $(".skills").hover(function(){
+            $(this).attr("width", $(this).attr("width") * 1.5 )
+            $(this).attr("height", $(this).attr("height") * 1.5 )
+
+        }, function(){
+            $(this).attr("width", $(this).attr("width") / 1.5)
+            $(this).attr("height", $(this).attr("height") / 1.5 )
+        })
+    </script>
+</body>
+</html>
