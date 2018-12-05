@@ -5,3 +5,11 @@ img {
 height:35px;
 width:35px;
 }
+
+#margin {
+    margin-left:80px;
+  }
+
+#marginsm {
+    margin-left:10px;
+  }
