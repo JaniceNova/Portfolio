@@ -12,3 +12,9 @@ html {
   padding: 5px 15px 5px 15px;
 
 }
+
+#blur {
+  border: 1px solid;
+  padding: 10px;
+  box-shadow: 5px 15px 18px #888888;
+}
